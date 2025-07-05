@@ -65,6 +65,15 @@ A comprehensive job portal backend built with Django that allows companies to po
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/django-job-portal.git
-   cd django-job-portal
+   git clone https://github.com/avinash-1707/job-portal-backend.git
+   cd job_portal
    ```
+2. **Run the migrations**
+    ```bash
+   python manage.py makemigrations
+   python manage.py migrate
+    ```
+3. **Run the server**
+```bash
+python manage.py run server
+```
